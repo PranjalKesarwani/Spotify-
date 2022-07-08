@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    /* Ye jo star ke andr css likh rhe iska matlab hai ki hum saare elements ke margin padding ko 0 kr diye hai */
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    position: sticky;
+    top: 0;
+    /* z-index: 1020; */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: whitesmoke;
+
+  
+
+}
+
+nav ul li {
+    /* margin-top: 5px; */
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+    /* margin-top: 3px;
+    margin-left: 3px;
+    align-items: center; */
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('bg.jpg');
+}
+
+.bottom {
+    position: sticky;
+    height: 125px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons {
+
+    margin-top: 16px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.container {
+    min-height: 74vh;
+    background-color: rgb(28, 7, 7);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 4px;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    /* width: 141%; */
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    cursor: pointer;
+
+
+}
+.songItem img{
+width: 43px;
+margin: 0px 23px;
+border-radius: 34px;
+
+
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timeStamp i{
+    margin: 0 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.songItemcontainer{
+  /* margin-left: 25px; */
+  margin-top: 74px;
+  
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+
+}
+#songInfo{
+    margin-left: 8px;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+#mainTimeStamp{
+    position: absolute;
+    right: 0;
+    margin: 181px;
+}
+
+
